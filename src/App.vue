@@ -1,5 +1,13 @@
 <template>
   <div>
-    Example
+    {{ message }}
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    message: 'Hello App'
+  })
+}
+</script>
